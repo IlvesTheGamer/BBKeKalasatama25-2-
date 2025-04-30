@@ -301,7 +301,6 @@ function shootAt(x,y){
 
     if(ghostIndex !== -1){
         ghosts.splice(ghostIndex, 1);
-        console.log("[DEBUG] Testi");
     }
 
     console.log(ghosts);
