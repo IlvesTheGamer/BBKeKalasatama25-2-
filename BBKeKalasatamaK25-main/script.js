@@ -328,7 +328,7 @@ function moveGhosts(){
         
         setCell(board, ghost.x, ghost.y, 'H');
 
-        if (ghost.x === player.x && ghost.y === player.y){
+        if (ghost.x === player.x && ghost.y === player.y){ //Jos kummitus koskettaa pelaajaa
             endGame();
             return;
         }
